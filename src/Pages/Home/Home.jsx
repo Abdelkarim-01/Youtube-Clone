@@ -1,10 +1,13 @@
 // import React from 'react'
+import Sidebar from '../../Components/Sidebar/Sidebar.jsx'
+import './Home.jsx'
 
-const Home = () => {
+// eslint-disable-next-line react/prop-types
+const Home = ({sidebar}) => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Sidebar sidebar={sidebar}/>
+    </>
   )
 }
 
